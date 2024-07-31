@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win a $500 Mastercard Gift Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .rules {
+            margin-top: 20px;
+        }
+        .about, .contact {
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Win 1 of 5 Mastercard Gift Cards Worth $500!</h1>
+        <p>Are you looking for a chance to win some extra cash? We're giving away 5 Mastercard gift cards worth $500 each!</p>
+        <p>To enter, simply fill out the form below. No purchase necessary.</p>
+        <h2>Enter to win</h2>
+        <form id="entryForm">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Your phone number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Your mailing address</label>
+            <input type="text" id="address" name="address" required>
+            
+            <input type="submit" value="Enter to win">
+        </form>
+        
+        <div class="rules">
+            <h2>Official Rules</h2>
+            <ul>
+                <li>No purchase necessary to enter or win.</li>
+                <li>Void where prohibited by law.</li>
+                <li>Odds of winning depend on the number of entries received.</li>
+                <li>Winners will be selected at random on [date].</li>
+                <li>Winners will be notified by email.</li>
+                <li>Mastercard gift cards are not transferable.</li>
+                <li>Mastercard gift cards cannot be redeemed for cash.</li>
+                <li>Mastercard gift cards can be used at any merchant that accepts Mastercard.</li>
+                <li>Mastercard is not a sponsor of this giveaway.</li>
+                <li>This giveaway is subject to the official rules.</li>
+            </ul>
+        </div>
+        
+        <div class="about">
+            <h2>About Us</h2>
+            <p>We are a company that provides followers of all social media types. We are committed to providing our customers with the best possible services. We are also committed to giving back to our community. This giveaway is just one way that we are doing that. share this with your friends for more luck</p>
+        </div>
+        
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this giveaway, please contact us at the main website www.instafollowers.co/</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Thank you for entering! We hope you win!</p>
+    </footer>
+    <script>
+        document.getElementById('entryForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'card.html';
+        });
+    </script>
+</body>
+</html
